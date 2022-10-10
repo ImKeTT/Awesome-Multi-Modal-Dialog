@@ -40,13 +40,25 @@ Visual grounded dialogue considers only **one image** for one dialogue session. 
 
 We roughly split the learning paradigm of different methods as: *Fusion-Based (FB), Attention-Based (AB) and Reinforce Learning (RL)*.
 
-|                       Title                       | Dataset Used | Publisher | Code | Class |
-| :-----------------------------------------------: | :----------: | :-------: | :--: | :---: |
-| [Visual Dialog](https://arxiv.org/abs/1611.08669) |              | ICCV2017  | N/A  |  FB   |
-|                                                   |              |           |      |       |
-|                                                   |              |           |      |       |
-|                                                   |              |           |      |       |
-|                                                   |              |           |      |       |
-|                                                   |              |           |      |       |
-|                                                   |              |           |      |       |
+|                            Title                             |                         Dataset Used                         |  Publisher   |                             Code                             | Class |
+| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------: | :----------------------------------------------------------: | :---: |
+|      [Visual  Dialog](https://arxiv.org/abs/1611.08669)      |                         VisDial v0.9                         |  ICCV 2017   |                             CODE                             |  FB   |
+| [Open  Domain Dialogue Generation with Latent  Images](https://arxiv.org/abs/2004.01981) |                      Image-Chat; Reddit                      |  AAAI 2021   |                             CODE                             |  FB   |
+| [Maria:  A Visual Experience Powered Conversational  Agent](https://arxiv.org/abs/2105.13073) |                   Reddit dataset; MS-COCO                    |   ACL2021    |         [CODE](https://github.com/jokieleung/Maria)          |  FB   |
+| [Learning  to Ground Visual Objects for Visual Dialog](https://arxiv.org/abs/2109.06013) |                  VisDial v0.9, v1.0;  COCO                   |   ACL 2021   |                             CODE                             |  FB   |
+| [Multi-Modal  Open-Domain Dialogue](https://arxiv.org/abs/2010.01082) | Image-Chat; ConvAI2;  EmpatheticDialogues; Wizard of WikiPedia; BlendedSkillTalk |  EMNLP 2021  |                             CODE                             |  FB   |
+| [Iterative  Context-Aware Graph Inference for Visual  Dialog](https://arxiv.org/abs/2004.02194) |                      VisDial v0.9; v1.0                      |  CVPR 2020   |        [CODE](https://github.com/wh0330/CAG_VisDial)         |  FB   |
+| [Reasoning  Visual Dialog with Sparse Graph Learning and Knowledge  Transfer](https://arxiv.org/abs/2004.06698) |                         VisDial v1.0                         |  EMNLP 2021  |   [CODE](https://github.  com/gicheonkang/SGLKT- VisDial)    |  FB   |
+| [VD-BERT:  A Unified Vision and Dialog Transformer with  BERT](https://arxiv.org/abs/2004.13278) |                      VisDial v0.9; v1.0                      |  EMNLP 2020  |       [CODE](https:  //github.com/salesforce/VD- BERT)       |  FB   |
+| [GuessWhat?!  Visual object discovery through multi-modal  dialogue](https://arxiv.org/abs/1611.08481) |                    Guessing;MNIST Dialog                     |  CVPR 2017   |      [CODE](https://github.com/GuessWhatGame/guesswhat)      |  FB   |
+| [Ask  No More: Deciding when to guess in referential visual  dialogue](https://arxiv.org/abs/1805.06960) |                           Guessing                           | COLING 2018  |          [CODE](https://vista-unitn-uva.github.io)           |  FB   |
+| [Visual  Reference Resolution using Attention Memory for Visual  Dialog](https://papers.nips.cc/paper/2017/hash/654ad60ebd1ae29cedc37da04b6b0672-Abstract.html) |                 MNIST Dialog; VisDial  v1.0                  |  NIPS 2017   |                             CODE                             |  AB   |
+| [Visual  Coreference Resolution in Visual Dialog using Neural Module  Networks](https://arxiv.org/abs/1809.01816) |                    MNIST Dialog; VisDial                     |  ECCV 2018   |     [CODE](https://github.com/facebookresearch/corefnmn)     |  AB   |
+| [Dual  Attention Networks for Visual Reference Resolution in Visual  Dialog](https://arxiv.org/abs/1902.09368) |                      VisDial v1.0, v0.9                      |  EMNLP 2019  |      [CODE](https://github.com/gicheonkang/DAN-VisDial)      |  AB   |
+| [Efficient  Attention Mechanism for Visual Dialog that can Handle All the Interactions  between Multiple Inputs (LTMI)](https://arxiv.org/abs/1911.11390) |                         VisDial v1.0                         |  ECCV 2020   |         [CODE](https://github.com/davidnvq/visdial)          |  AB   |
+| [Large-scale  Pretraining for Visual Dialog: A Simple State-of-the-Art  Baseline](https://arxiv.org/abs/1912.02379) | Wikipedia; BooksCorpus;  Conceptual Cations; VQA; VisDial v1.0 |  ECCV 2019   |      [CODE](https://github.com/vmurahari3/visdial-bert)      |  AB   |
+| [Multi-step  Reasoning via Recurrent Dual Attention for Visual  Dialog](https://arxiv.org/abs/1902.00579) |                      VisDial v1.0; COCO                      |   ACL 2019   |                             CODE                             |  AB   |
+| [Are  You Talking to Me? Reasoned Visual Dialog Generation through Adversarial  Learning](https://arxiv.org/abs/1711.07613) |                         VisDial v0.9                         |  CVPR 2018   |                             CODE                             | AB&RL |
+| [Best  of Both Worlds: Transferring Knowledge from Discriminative Learning to a  Generative Visual Dialog Model](https://arxiv.org/abs/1706.01554) |                         VisDial v0.9                         | NeurIPS 2017 |     [CODE](https://github.com/jiasenlu/visDial.pytorch)      |  AB   |
+| [Multi-View  Attention Network for Visual Dialog](https://arxiv.org/abs/2004.14025) |                     VisDial v1.0 & v0.9                      |      0       | [CODE](https://github.com/batra-mlp-lab/visdial-challenge-starter-  pytorch) |  AB   |
 
