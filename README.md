@@ -65,3 +65,19 @@ We roughly split the learning paradigm of different methods as: *Fusion-Based (F
 | [Multimodal  Hierarchical Reinforcement Learning Policy for Task-Oriented Visual  Dialog](https://arxiv.org/abs/1805.03257) |                           VisDial                            | SIGDIAL 2018 |                             CODE                             |  RL   |
 | [Beyond  task success: A closer look at jointly learning to see, ask, and  GuessWhat](https://arxiv.org/abs/1809.03408) |                           Guessing                           |  NAACL 2019  |          [CODE](https://vista-unitn-uva.github.io)           |  RL   |
 
+### Navigation
+
+
+
+|                            Title                             |                      Dataset Used                      | Publisher  |                             Code                             |
+| :----------------------------------------------------------: | :----------------------------------------------------: | :--------: | :----------------------------------------------------------: |
+| [Learning  to interpret natural language navigation instructions from  observations](http://www.cs.utexas.edu/~ai-lab/pubs/chen.aaai11.pdf) |                          None                          | AAAI 2011  |                             CODE                             |
+| [Talk  the walk: Navigating new york city through grounded  dialogue](https://arxiv.org/abs/1807.03367) |               Talk the  Walk;GuessWhat?!               | Arxiv 2018 |  [CODE](https://github.com/facebookresearch/  talkthewalk)   |
+| [Mapping  Navigation Instructions to Continuous Control Actions with  Position-Visitation Prediction](https://arxiv.org/abs/1811.04179) |                          LANI                          | CoRL 2018  |           [CODE](https://github.com/lil-lab/drif)            |
+| [Vision-and-Language  Navigation: Interpreting visually-grounded naviga- tion instructions in real  environments](https://arxiv.org/abs/1711.07280) |                  R2R;VQA;Matterport3D                  | CVPR 2018  | [CODE](https://github.com/peteanderson80/Matterport3DSimulator) |
+| [Natural  language navigation and spatial reasoning in visual street  environments](https://arxiv.org/abs/1811.12354) | Touchdown;VQA;ReferItGame;Google  Refexp;Talk the Walk | CVPR 2019  |         [CODE](https://github.com/lil-lab/touchdown)         |
+| [Stay  on the Path: Instruction Fidelity in Vision-and-Language  Navigation](https://arxiv.org/abs/1905.12255) |                      R2R;R4R;CLS                       |  ACL 2019  |                             CODE                             |
+| [Learning  to navigate unseen environments: Back translation with environmental  dropout](http://aclanthology.lst.uni-saarland.de/N19-1268.pdf) |                      Matterport3D                      | NAACL 2019 |       [CODE](https://github.com/airsplay/R2R-EnvDrop)        |
+| [Touchdown:Naturallanguagenavigation  and spatial reasoning in visual street  environments](https://arxiv.org/abs/1811.12354) | Touchdown;VQA;ReferItGame;Google  Refexp;Talk the Walk | CVPR 2019  |         [CODE](https://github.com/lil-lab/touchdown)         |
+| [IQA:  Visual Question Answering in Interactive  Environments](https://arxiv.org/abs/1712.03316) |                   IQUAD;VQA;AI2-THOR                   | CVPR 2018  | [CODE](https://github.com/danielgordon10/thor-iqa-cvpr-2018) |
+| [Embodied  Question Answering](https://arxiv.org/abs/1711.11543) |                        EQA;VQA                         | CVPR 2018  |    [CODE](https://github.com/facebookresearch/EmbodiedQA)    |
