@@ -81,3 +81,36 @@ We roughly split the learning paradigm of different methods as: *Fusion-Based (F
 | [Touchdown:Naturallanguagenavigation  and spatial reasoning in visual street  environments](https://arxiv.org/abs/1811.12354) | Touchdown;VQA;ReferItGame;Google  Refexp;Talk the Walk | CVPR 2019  |         [CODE](https://github.com/lil-lab/touchdown)         |
 | [IQA:  Visual Question Answering in Interactive  Environments](https://arxiv.org/abs/1712.03316) |                   IQUAD;VQA;AI2-THOR                   | CVPR 2018  | [CODE](https://github.com/danielgordon10/thor-iqa-cvpr-2018) |
 | [Embodied  Question Answering](https://arxiv.org/abs/1711.11543) |                        EQA;VQA                         | CVPR 2018  |    [CODE](https://github.com/facebookresearch/EmbodiedQA)    |
+
+### Question Generation
+
+
+
+|                            Title                             |    Dataset Used     | Publisher |                         Code                         |
+| :----------------------------------------------------------: | :-----------------: | :-------: | :--------------------------------------------------: |
+| [Category-Based  Strategy-Driven Question Generator for Visual  Dialogue](https://aclanthology.org/2021.ccl-1.89.pdf) |      Guessing       | CCL 2021  |                         CODE                         |
+| [Visual  Dialogue State Tracking for Question  Generation](https://arxiv.org/abs/1911.07928) |      Guessing       | AAAI 2020 |                         CODE                         |
+| [Answer-Driven  Visual State Estimator for Goal-Oriented Visual  Dialogue](https://dl.acm.org/doi/10.1145/3394171.3413668) | GuessWhat?!;MS Coco |  MM 2020  | [CODE](https://github.com/zipengxuc/ADVSE-GuessWhat) |
+| [Goal-Oriented  Visual Question Generation via Intermediate Re-  wards](https://openaccess.thecvf.com/content_ECCV_2018/papers/Junjie_Zhang_Goal-Oriented_Visual_Question_ECCV_2018_paper.pdf) |     GuessWhat?!     | ECCV 2018 |                         CODE                         |
+| [Learning  goal-oriented visual dialog via tempered policy  gradient](https://arxiv.org/abs/1807.00737) |     GuessWhat?!     | SLT 2018  |                         CODE                         |
+| [Information  maximizing visual question generation](https://arxiv.org/abs/1903.11207) |         VQG         | ICCV 2019 |                         CODE                         |
+
+
+
+
+
+### Multimodal conv. (method)
+
+
+
+|                            Title                             |             Dataset Used             | Publisher  |                             Code                             | Class |
+| :----------------------------------------------------------: | :----------------------------------: | :--------: | :----------------------------------------------------------: | :---: |
+| [Multimodal  Dialogue Response Generation](https://arxiv.org/abs/2110.08515) |     PhotoChat; Reddit; YFCC100M      |  ACL 2022  |                             CODE                             |   -   |
+| [Constructing  Multi-Modal Dialogue Dataset by Replacing Text with Semantically Relevant  Images](https://arxiv.org/abs/2107.08685) |                                      |  ACL 2021  | [CODE](https://github.com/shh1574/multi-modal-dialogue-dataset) |   -   |
+| [Towards  Enriching Responses with Crowd-sourced Knowledge for Task-oriented  Dialogue](https://dl.acm.org/doi/10.1145/3475959.3485392) |                MMConv                | MuCAI 2021 |                             CODE                             |  FB   |
+| [Multimodal  Dialog System: Generating Responses via Adaptive  Decoders](https://liqiangnie.github.io/paper/fp349-nieAemb.pdf) |                 MMD                  |  MM 2019   |       [CODE](https://acmmultimedia.wixsite.com/magic)        |  FB   |
+| [Multimodal  Dialog Systems via Capturing Context-aware Dependencies of Semantic  Elements](http://staff.ustc.edu.cn/~tongxu/Papers/Weidong_MM20.pdf) |                 MMD                  |  MM 2020   |          [CODE](ttps://github.com/githwd2016/MATE)           |  FB   |
+| [Multimodal  Dialog System: Relational Graph-based Context-aware Question  Understanding](https://dl.acm.org/doi/abs/10.1145/3474085.3475234) |                 MMD                  |  MM 2021   |                             CODE                             |  FB   |
+| [User  Attention-guided Multimodal Dialog  Systems](https://dl.acm.org/doi/10.1145/3331184.3331226) |                 MMD                  | SIGIR 2019 |          [CODE](  https://github.com/ChenTsuei/UMD)          |  FB   |
+| [Text  is NOT Enough: Integrating Visual Impressions into Open-domain Dialogue  Generation](https://arxiv.org/abs/2109.05778) | DailyDialog; Flickr30K;  PersonaChat |  MM 2021   |                             CODE                             |  AB   |
+
