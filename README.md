@@ -134,16 +134,16 @@ We split the related metrics to *Rank-based* and *Generiate-based*
 |                       Metrics                       | Better indicator |                         Explanation                          |
 | :-------------------------------------------------: | :--------------: | :----------------------------------------------------------: |
 |                        Mean                         |   $\downarrow$   |       mean rank of ground truth response in candidates       |
-|                        R@$k$                        |    $\uparrow$    | ratio of ground truth response in the top-$k$ ranked responses |
+|                        R@k                        |    $\uparrow$    | ratio of ground truth response in the top-k ranked responses |
 |             Mean Reciprocal Rank (MRR)              |    $\uparrow$    | mean reciprocal rank of the ground truth response in the ranked responses |
-| Normalized Discounted Cumulative Gain@$k$(NDCG@$k$) |    $\uparrow$    | relevance score list, assigns 0-1 for 100 candidates responses based on semantic similarity with the ground truth responses |
+| Normalized Discounted Cumulative Gain@k(NDCG@k) |    $\uparrow$    | relevance score list, assigns 0-1 for 100 candidates responses based on semantic similarity with the ground truth responses |
 
 #### Generate-based Metrics
 
 |       Metrics       | Better indicator |
 | :-----------------: | :--------------: |
-|      BLEU-$k$       |    $\uparrow$    |
-|    ROUGE-$k$/$L$    |    $\uparrow$    |
+|      BLEU-k       |    $\uparrow$    |
+|    ROUGE-k/L    |    $\uparrow$    |
 |       Meteor        |    $\uparrow$    |
 |        CIDEr        |    $\uparrow$    |
 | Embedding *Average* |    $\uparrow$    |
