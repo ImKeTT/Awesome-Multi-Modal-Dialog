@@ -149,3 +149,15 @@ We split the related metrics to *Rank-based* and *Generiate-based*
 | Embedding *Average* |    $\uparrow$    |
 | Embedding *Extrema* |    $\uparrow$    |
 | Embedding *Greedy*  |    $\uparrow$    |
+
+#### Model-based Metrics
+The model-based metrics are evaluated by off-the-shelf language models or multimodal language models. Typically there are different dimensions for evaluation.
+|       Metrics       | Better indicator |
+| :-----------------: | :--------------: |
+|      Fluency       |    $\uparrow$    |
+|    Relevance    |    $\uparrow$    |
+|       Knowledge        |    $\uparrow$    |
+|        Correctness        |    $\uparrow$    |
+
+## Related Project
+TBD
